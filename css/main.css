@@ -1,0 +1,16 @@
+/*primero tengo que hacer un contenedor rectangulo para la tarjeta base
+luego para el lado derecho un triangulo y otro rectángulo los cuales
+se posicionan sobre la tarjeta base.
+finalmente añadir una imagen del alto del rectángulo base y ancho suficiente para que al 
+quedar detras del lado derecho de la ilusión del corte de esa figura*/
+
+#base {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 300px;
+    height: 0;
+    border: 90px solid rgba(0, 0, 0, 0);
+    border-top: 0 solid;
+    border-bottom: 200px solid #1abc9c;
+}
